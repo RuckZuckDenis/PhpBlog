@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Новая статья</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    </head>
+<body>
+    <div class="container">
+        <h1>Новая запись в блоге</h1>
+        <div>
+            <form method="post" action="index.php">
+                <label style="display: block">
+                    Caption
+                    <input type="text" name="title" value="" class="form-item" autofocus required>
+                </label>
+                <label style="display: block">
+                    Date
+                    <input type="date" name="date" value="" class="form-item" required>
+                </label>
+                <label style="display: block">
+                    Content
+                    <textarea name="content" value="" class="form-item" required></textarea>
+                </label>
+                <input type="submit" value="Save" class="btn">
+            </form>
+        </div>
+        <footer>
+            <p>blog &copy; 43</p>
+        </footer>
+    </div>
+</body>
+</html>
